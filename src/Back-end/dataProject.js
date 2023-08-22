@@ -10,7 +10,7 @@ import GITHUB from "../images/icon/github.png";
 
 
 // Foto Project
-import FotoBestElectronisShop from "../images/Project/Best-Electronis-shop.JPG"
+import FotoBestElectronisShop from "../images/Project/Best-Electronic-shop.JPG"
 
 const projects = [
     {
@@ -24,13 +24,96 @@ const projects = [
         text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
 
         secondTechnology: [
-            {
-                tech1: HTML,
-                tech2: TALWIND,
-                tech3: FIREABSE,
-                tech4: GITHUB
-            }
-        ]
+            { tech: HTML },
+            { tech: TALWIND },
+            { tech: FIREABSE },
+            { tech: GITHUB },
+          ],
+    },
+    {
+        id: 2,
+        heading: "Best Electronic shop",
+        url: "https://karelstastny.github.io/react-best-electronics/",
+        mainFoto: FotoBestElectronisShop,
+        mainTechnology: REACT,
+        category: "react",
+        quality: "best",
+        text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+
+         secondTechnology: [
+            { tech: HTML },
+            { tech: TALWIND },
+            { tech: FIREABSE },
+            { tech: GITHUB },
+          ],
+    },
+    {
+        id: 3,
+        heading: "Best Electronic shop",
+        url: "https://karelstastny.github.io/react-best-electronics/",
+        mainFoto: FotoBestElectronisShop,
+        mainTechnology: REACT,
+        category: "react",
+        quality: "best",
+        text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+
+        secondTechnology: [
+            { tech: HTML },
+            { tech: TALWIND },
+            { tech: FIREABSE },
+            { tech: GITHUB },
+          ],
+    },
+    {
+        id: 4,
+        heading: "Best Electronic shop",
+        url: "https://karelstastny.github.io/react-best-electronics/",
+        mainFoto: FotoBestElectronisShop,
+        mainTechnology: REACT,
+        category: "react",
+        quality: "best",
+        text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+
+        secondTechnology: [
+            { tech: HTML },
+            { tech: TALWIND },
+            { tech: FIREABSE },
+            { tech: GITHUB },
+          ],
+    },
+    {
+        id: 5,
+        heading: "Best Electronic shop",
+        url: "https://karelstastny.github.io/react-best-electronics/",
+        mainFoto: FotoBestElectronisShop,
+        mainTechnology: REACT,
+        category: "react",
+        quality: "best",
+        text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+
+        secondTechnology: [
+            { tech: HTML },
+            { tech: TALWIND },
+            { tech: FIREABSE },
+            { tech: GITHUB },
+          ],
+    },
+    {
+        id: 6,
+        heading: "Best Electronic shop",
+        url: "https://karelstastny.github.io/react-best-electronics/",
+        mainFoto: FotoBestElectronisShop,
+        mainTechnology: REACT,
+        category: "react",
+        quality: "best",
+        text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+
+        secondTechnology: [
+            { tech: HTML },
+            { tech: TALWIND },
+            { tech: FIREABSE },
+            { tech: GITHUB },
+          ],
     },
 ]
 
