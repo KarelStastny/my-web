@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className=" flex items-center justify-between w-full md:w-auto ">
           <div className="p-2 md:p-4 ">
-          <h2 className="font-courgate tracking-wide text-xl md:text-2xl ">Karel <span className="text-purple-500">Švancar</span> </h2>
+          <h2 className=" cursor-pointer font-courgate tracking-wide text-xl md:text-2xl ">Karel <span className="text-purple-500">Švancar</span> </h2>
           </div>
           
           {/* Hamburger */}
@@ -39,12 +39,12 @@ const Navbar = () => {
 
        
         {/* Menu Desktop */}
-        <nav className=" gap-2 hidden md:flex items-center justify-center">
-          <li>Home</li>
-          <li>O mě</li>
-          <li>Zkušenosti</li>
-          <li>Projekty</li>
-          <li>Kontakt</li>
+        <nav className=" gap-4 hidden md:flex items-center justify-center">
+          <li className="text-lg font-chakra-petch tracking-wider text-purple-500 cursor-pointer hover:border-b-2 hover:text-purple-300 border-purple-300 transition-all duration-100">Home</li>
+          <li className="text-lg font-chakra-petch tracking-wider text-purple-500 cursor-pointer hover:border-b-2 hover:text-purple-300 border-purple-300 transition-all duration-100">O mě</li>
+          <li className="text-lg font-chakra-petch tracking-wider text-purple-500 cursor-pointer hover:border-b-2 hover:text-purple-300 border-purple-300 transition-all duration-100">Zkušenosti</li>
+          <li className="text-lg font-chakra-petch tracking-wider text-purple-500 cursor-pointer hover:border-b-2 hover:text-purple-300 border-purple-300 transition-all duration-100">Projekty</li>
+          <li className="text-lg font-chakra-petch tracking-wider text-purple-500 cursor-pointer hover:border-b-2 hover:text-purple-300 border-purple-300 transition-all duration-100">Kontakt</li>
         </nav>
         {/* Social Media */}
         <section className=" h-full  hidden md:flex p-4">

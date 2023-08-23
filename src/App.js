@@ -14,15 +14,16 @@ function App() {
     <div className="App">
       <div className="">
         {/* Header */}
-        <header className="h-screen overflow-hidden">
+        <header className=" overflow-hidden">
           <Navbar />
     
           <HeroSection />
         
         </header>
+        <Banner/>
         <Aboutme/>
           <Experience/>
-          <Banner/>
+      
           <Projects/>
           <Contakt/>
           <Footer/>
