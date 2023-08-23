@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <div className="">
         {/* Header */}
-        <header className="h-screen">
+        <header className="h-screen overflow-hidden">
           <Navbar />
     
           <HeroSection />

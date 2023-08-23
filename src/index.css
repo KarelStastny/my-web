@@ -12,4 +12,18 @@
 body{
     background-color: #1D1F23;
     color: white;
+   
 }
+
+.mobile-navbar {
+    position: fixed;
+    bottom: 0; /* Umístění do spodní části obrazovky */
+    left: 0; /* Zarovnání vlevo */
+    width: 100%; /* 100% šířka */
+    background-color: black; /* Barva pozadí */
+    display: flex;
+    flex-direction: column; /* Umístění elementů ve sloupci */
+    align-items: center; /* Zarovnání do středu */
+    z-index: 1000; /* Z-index nastaven na vysokou hodnotu */
+    padding: 20px; /* Vnější odsazení */
+  }

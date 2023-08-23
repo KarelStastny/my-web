@@ -3,7 +3,7 @@ import developer from "../../images/developer.png";
 
 const HeroSection = () => {
   return (
-    <div className="w-full bg-dark">
+    <div className="w-full mt-[70px]">
       <div className="max-w-6xl m-auto p-1">
         {/* Hero Section */}
         <section className="border flex">
