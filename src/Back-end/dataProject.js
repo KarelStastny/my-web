@@ -11,6 +11,11 @@ import GITHUB from "../images/icon/github.png";
 
 // Foto Project
 import FotoBestElectronisShop from "../images/Project/Best-Electronic-shop.JPG"
+import PokemonGoCad from "../images/Project/Pokemon-go-card.JPG"
+import RandomPersonApi from "../images/Project/Random-person-api.JPG"
+import TheWeatherApp from "../images/Project/The-weather-app.JPG"
+import TheWitcher from "../images/Project/The-witcher.JPG"
+import MainProgress from "../images/Project/Main-progress.JPG"
 
 const projects = [
     {
@@ -32,87 +37,85 @@ const projects = [
     },
     {
         id: 2,
-        heading: "Best Electronic shop",
-        url: "https://karelstastny.github.io/react-best-electronics/",
-        mainFoto: FotoBestElectronisShop,
-        mainTechnology: REACT,
-        category: "react",
-        quality: "best",
+        heading: "Pokemon Go card",
+        url: "https://karelstastny.github.io/Pokemon-Go-card/",
+        mainFoto: PokemonGoCad,
+        mainTechnology: JS,
+        category: "js",
+        quality: "normal",
         text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
 
          secondTechnology: [
             { tech: HTML },
-            { tech: TALWIND },
-            { tech: FIREABSE },
+            { tech: CSS },
             { tech: GITHUB },
           ],
     },
     {
         id: 3,
-        heading: "Best Electronic shop",
-        url: "https://karelstastny.github.io/react-best-electronics/",
-        mainFoto: FotoBestElectronisShop,
-        mainTechnology: REACT,
-        category: "react",
-        quality: "best",
+        heading: "Random Person API",
+        url: "https://karelstastny.github.io/Random-person-api/",
+        mainFoto: RandomPersonApi,
+        mainTechnology: JS,
+        category: "js",
+        quality: "normal",
         text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
 
         secondTechnology: [
             { tech: HTML },
-            { tech: TALWIND },
-            { tech: FIREABSE },
+            { tech: CSS },
             { tech: GITHUB },
           ],
     },
     {
         id: 4,
-        heading: "Best Electronic shop",
-        url: "https://karelstastny.github.io/react-best-electronics/",
-        mainFoto: FotoBestElectronisShop,
-        mainTechnology: REACT,
-        category: "react",
-        quality: "best",
+        heading: "The Weather App",
+        url: "https://karelstastny.github.io/The-Weather-App/",
+        mainFoto: TheWeatherApp,
+        mainTechnology: JS,
+        category: "js",
+        quality: "normal",
         text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
 
         secondTechnology: [
             { tech: HTML },
-            { tech: TALWIND },
-            { tech: FIREABSE },
+            { tech: CSS },
+            { tech: SCSS },
             { tech: GITHUB },
           ],
     },
     {
         id: 5,
-        heading: "Best Electronic shop",
-        url: "https://karelstastny.github.io/react-best-electronics/",
-        mainFoto: FotoBestElectronisShop,
-        mainTechnology: REACT,
-        category: "react",
+        heading: "The Witcher",
+        url: "https://karelstastny.github.io/The-Witcher-Web/",
+        mainFoto: TheWitcher,
+        mainTechnology: JS,
+        category: "js",
         quality: "best",
         text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
 
         secondTechnology: [
             { tech: HTML },
-            { tech: TALWIND },
-            { tech: FIREABSE },
+            { tech: SCSS },
+            { tech: CSS },
             { tech: GITHUB },
           ],
     },
     {
         id: 6,
-        heading: "Best Electronic shop",
+        heading: "Main Progress",
         url: "https://karelstastny.github.io/react-best-electronics/",
-        mainFoto: FotoBestElectronisShop,
-        mainTechnology: REACT,
-        category: "react",
-        quality: "best",
+        mainFoto: MainProgress,
+        mainTechnology: JS,
+        category: "css",
+        quality: "style",
         text: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
 
         secondTechnology: [
             { tech: HTML },
-            { tech: TALWIND },
-            { tech: FIREABSE },
+            { tech: CSS },
             { tech: GITHUB },
+          
           ],
     },
 ]
