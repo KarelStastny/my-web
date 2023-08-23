@@ -15,14 +15,19 @@ const Experience = () => {
 
   return (
     <div className="faq p-4">
-      <div className="w-full max-w-[500px] m-auto ">
+      <div className="flex items-center justify-center mt-4">
+          <h2 className=" font-courgate tracking-wide text-xl md:text-2xl lg:text-4xl ">
+            Používané <span className="text-purple-500">Technologie</span>{" "}
+          </h2>
+        </div>
+      <div className="w-full max-w-[500px] m-auto mt-8 ">
         {dataExperience.map((one) => (
           <div className="itembox" key={one.id}>
             <div
               className=      "flex justify-between items-center p-2 bg-dark rounded-md mb-2 cursor-pointer hover:text-purple-500 font-semibold pl-4 transition-all duration-150"
               onClick={() => toggle(one.id)}
             >
-              <h2 className={` ${selected === one.id ? ' text-purple-500' : 'text-white' } `}>{one.heading}</h2>
+              <h2 className={` ${selected === one.id ? ' text-purple-500' : 'text-white' } md:text-lg `}>{one.heading}</h2>
               <span className="text-2xl font-bold">{selected === one.id ? <MdKeyboardArrowUp className='fill-purple-500' /> : <MdKeyboardArrowDown className='fill-purple-500'/>}</span>
             </div> 
             <div
