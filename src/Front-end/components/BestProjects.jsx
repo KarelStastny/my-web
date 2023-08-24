@@ -24,7 +24,7 @@ const BestProjects = () => {
           {/* Projekty */}
           <div className="flex items-center justify-center  flex-wrap gap-2 md:gap-6   ">
             {dataProject.map((one) => (
-                one.quality == "best" &&
+                one.quality === "best" &&
               <div
                 key={one.id}
                 onClick={() => toggle(one, one.id)}

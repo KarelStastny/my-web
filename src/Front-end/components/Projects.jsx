@@ -5,6 +5,7 @@ import { IoCloseSharp } from "react-icons/io5";
 const Projects = () => {
   const [selected, setSelected] = useState(null);
   const [selectedProject, setSelectedProject] = useState([]);
+  const [findTypeProject, setfindTypeProject] = useState(null);
 
   // Přepínač
   const toggle = (one, index) => {
@@ -14,7 +15,7 @@ const Projects = () => {
   console.log(selectedProject);
 
   return (
-    <div className="max-w-6xl m-auto p-1 ">
+    <div className="max-w-6xl m-auto p-1 mt-14">
       <div className="flex items-center justify-center mt-4">
         <h2 className=" font-courgate tracking-wide text-xl md:text-2xl lg:text-4xl ">
           Všechny <span className="text-purple-500">Projekty</span>{" "}
@@ -22,44 +23,74 @@ const Projects = () => {
       </div>
 
       {/* Filter menu */}
-      <div>
-        <button>Všechny</button>
-        <button>JavaScript</button>
-        <button>React</button>
-        <button>Styly</button>
-        <button>Nejlepší projekty</button>
+      <div className="flex gap-5 items-center justify-center ">
+        <div className="flex  justify-center  items-center mt-6 mb-6">
+          <button
+            onClick={() => setfindTypeProject(null)}
+            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+          >
+            Všechny
+          </button>
+        </div>
+        <div className="flex justify-center items-center mt-6 mb-6">
+          <button
+            onClick={() => setfindTypeProject("js")}
+            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+          >
+            JavaScript
+          </button>
+        </div>
+        <div className="flex  justify-center items-center mt-6 mb-6">
+          <button
+            onClick={() => setfindTypeProject("react")}
+            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+          >
+            React
+          </button>
+        </div>
+        <div className="flex  justify-center items-center mt-6 mb-6">
+          <button
+            onClick={() => setfindTypeProject("css")}
+            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+          >
+            CSS
+          </button>
+        </div>
       </div>
 
       {/* Projekty */}
       <div className="flex items-center justify-center  flex-wrap gap-2 md:gap-6   ">
-        {dataProject.map((one) => (
-          <div
-            key={one.id}
-            onClick={() => toggle(one, one.id)}
-            className=" cursor-pointer w-[75%] sm:w-[45%] lg:w-[30%] bg-dark hover:bg-purple-700  transition-all duration-100 rounded-lg"
-          >
-            {/* Img projektu */}
-            <div className="h-[200px] w-full p-2">
-              <img
-                src={one.mainFoto}
-                className="w-full h-full rounded-lg  object-cover"
-                alt=""
-              />
-            </div>
+        {dataProject.map(
+          (one) =>
+            (findTypeProject === null || one.category === findTypeProject) && (
+              <div
+                key={one.id}
+                onClick={() => toggle(one, one.id)}
+                className=" cursor-pointer w-[75%] sm:w-[45%] lg:w-[30%] bg-dark hover:bg-purple-700  transition-all duration-100 rounded-lg"
+              >
+                {/* Img projektu */}
+                <div className="h-[200px] w-full p-2">
+                  <img
+                    src={one.mainFoto}
+                    className="w-full h-full rounded-lg  object-cover"
+                    alt=""
+                  />
+                </div>
 
-            {/* text */}
-            <div className="flex justify-between items-center rounded-lg  bg-primary m-2 h-[50px] p-2">
-              <h2 className="w-[85%] uppercase font-semibold text-purple-500">
-                {one.heading}
-              </h2>
-              <img
-                className="w-[15%] h-full object-contain"
-                src={one.mainTechnology}
-                alt=""
-              />
-            </div>
-          </div>
-        ))}
+                {/* text */}
+                <div className="flex justify-between items-center rounded-lg  bg-primary m-2 h-[50px] p-2">
+                  <h2 className="w-[85%] uppercase font-semibold text-purple-500">
+                    {one.heading}
+                  </h2>
+                  <img
+                    className="w-[15%] h-full object-contain"
+                    src={one.mainTechnology}
+                    alt=""
+                  />
+                </div>
+              </div>
+            )
+        )}
       </div>
       {/* Otevřený projekt */}
 
