@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-web/static/css/main.85debf0d.css",
-    "main.js": "/my-web/static/js/main.1f52b171.js",
+    "main.css": "/my-web/static/css/main.b57d6eb4.css",
+    "main.js": "/my-web/static/js/main.9946deda.js",
     "static/media/react.png": "/my-web/static/media/react.becbab0ab5d2271d2831.png",
     "static/media/firebase.png": "/my-web/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
     "static/media/Pokemon-go-card.JPG": "/my-web/static/media/Pokemon-go-card.67553e862793f4d0be76.JPG",
@@ -15,11 +15,11 @@
     "static/media/js.png": "/my-web/static/media/js.166865dacb77d214f485.png",
     "static/media/talwind.png": "/my-web/static/media/talwind.5ddb60003daadbd2e679.png",
     "index.html": "/my-web/index.html",
-    "main.85debf0d.css.map": "/my-web/static/css/main.85debf0d.css.map",
-    "main.1f52b171.js.map": "/my-web/static/js/main.1f52b171.js.map"
+    "main.b57d6eb4.css.map": "/my-web/static/css/main.b57d6eb4.css.map",
+    "main.9946deda.js.map": "/my-web/static/js/main.9946deda.js.map"
   },
   "entrypoints": [
-    "static/css/main.85debf0d.css",
-    "static/js/main.1f52b171.js"
+    "static/css/main.b57d6eb4.css",
+    "static/js/main.9946deda.js"
   ]
 }
