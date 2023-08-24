@@ -1,5 +1,6 @@
 import Aboutme from "./Front-end/components/Aboutme";
 import Banner from "./Front-end/components/Banner";
+import BestProjects from "./Front-end/components/BestProjects";
 import Contakt from "./Front-end/components/Contakt";
 import Experience from "./Front-end/components/Experience";
 import Footer from "./Front-end/components/Footer";
@@ -23,7 +24,7 @@ function App() {
         <Banner/>
         <Aboutme/>
           <Experience/>
-      
+      <BestProjects/>
           <Projects/>
           <Contakt/>
           <Footer/>
