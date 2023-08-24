@@ -9,7 +9,6 @@ const Footer = () => {
             Karel <span className="text-purple-500">Švancar</span>{" "}
           </h2>
 
-          Přidat ještě progres linku která bude fixována pod nav a bude se ukazoat
         </div>
     </div>
   )

@@ -57,7 +57,7 @@ const Navbar = () => {
       
       {/* Menu Mobile */}
       <div className=" relative w-full   ">
-        <div className={` absolute  ${openMobileNav ? " -left-full " : " left-0 right-0 "} transition-all duration-100`}>
+        <div className={` absolute  ${openMobileNav ? " -left-full " : " -left-2 right-0 "} transition-all duration-100`}>
           <MobileNavbar toggleMobileNav={toggleMobileNav} />
         </div>
         </div>
