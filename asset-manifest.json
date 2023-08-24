@@ -1,25 +1,30 @@
 {
   "files": {
     "main.css": "/my-web/static/css/main.b57d6eb4.css",
-    "main.js": "/my-web/static/js/main.9946deda.js",
+    "main.js": "/my-web/static/js/main.f4cde8c6.js",
     "static/media/react.png": "/my-web/static/media/react.becbab0ab5d2271d2831.png",
     "static/media/firebase.png": "/my-web/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
     "static/media/Pokemon-go-card.JPG": "/my-web/static/media/Pokemon-go-card.67553e862793f4d0be76.JPG",
     "static/media/The-witcher.JPG": "/my-web/static/media/The-witcher.2c07e45edbd6c435fe66.JPG",
+    "static/media/Active-navbar-scroll.JPG": "/my-web/static/media/Active-navbar-scroll.a0234845751ab8800d6b.JPG",
+    "static/media/PC-eshop-js.JPG": "/my-web/static/media/PC-eshop-js.de3091fd1a96cf1a5274.JPG",
     "static/media/Best-Electronic-shop.JPG": "/my-web/static/media/Best-Electronic-shop.4b58a35a979289839687.JPG",
+    "static/media/Shop-Filter.JPG": "/my-web/static/media/Shop-Filter.fef95212523b17377f6f.JPG",
     "static/media/Random-person-api.JPG": "/my-web/static/media/Random-person-api.75582ec91985919bbf8d.JPG",
+    "static/media/Lovely-days.JPG": "/my-web/static/media/Lovely-days.fc9dab6a1f9d91ad0e1b.JPG",
     "static/media/scss.png": "/my-web/static/media/scss.58e61bc991e55a95072b.png",
     "static/media/The-weather-app.JPG": "/my-web/static/media/The-weather-app.f1aea0f0f52d11a9a3c3.JPG",
     "static/media/developer.png": "/my-web/static/media/developer.83d125423f32b9ee877c.png",
     "static/media/Main-progress.JPG": "/my-web/static/media/Main-progress.7bc48bc537ad68993959.JPG",
     "static/media/js.png": "/my-web/static/media/js.166865dacb77d214f485.png",
+    "static/media/Password-generator.JPG": "/my-web/static/media/Password-generator.4206d85ab8a21351e96f.JPG",
     "static/media/talwind.png": "/my-web/static/media/talwind.5ddb60003daadbd2e679.png",
     "index.html": "/my-web/index.html",
     "main.b57d6eb4.css.map": "/my-web/static/css/main.b57d6eb4.css.map",
-    "main.9946deda.js.map": "/my-web/static/js/main.9946deda.js.map"
+    "main.f4cde8c6.js.map": "/my-web/static/js/main.f4cde8c6.js.map"
   },
   "entrypoints": [
     "static/css/main.b57d6eb4.css",
-    "static/js/main.9946deda.js"
+    "static/js/main.f4cde8c6.js"
   ]
 }
