@@ -1,26 +1,37 @@
 import React, { useState } from "react";
-import { FaDiscord } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import { BsGithub, BsInstagram } from "react-icons/bs";
 import SocialniSite from "./SocialniSite";
 
-const MobileNavbar = ({ toggleMobileNav }) => {
-  const [close, setClose] = useState(true);
+const MobileNavbar = ({ toggleMobileNav, scrollToSection, sections }) => {
   const [openMobileNav, setOpenMobileNav] = useState(false);
 
+  const toggleNav = (sectionId) => {
+    setOpenMobileNav(false);
+    toggleMobileNav();
+    scrollToSection(sectionId);
+  };
+
   return (
-    <div className="w-full bg-dark p-4 z-10 ">
-      {/* Menu */}
-      <nav className="flex flex-col gap-2 p-4 ">
-        <li className="text-white border-b border-white font-chakra-petch font-bold text-lg cursor-pointer hover:text-purple-500 transition-all " onClick={() => toggleMobileNav()}>Home</li>
-        <li className="text-white border-b border-white font-chakra-petch font-bold text-lg cursor-pointer hover:text-purple-500 transition-all " onClick={() => toggleMobileNav()}>O mě</li>
-        <li className="text-white border-b border-white font-chakra-petch font-bold text-lg cursor-pointer hover:text-purple-500 transition-all " onClick={() => toggleMobileNav()}>Zkušenosti</li>
-        <li className="text-white border-b border-white font-chakra-petch font-bold text-lg cursor-pointer hover:text-purple-500 transition-all " onClick={() => toggleMobileNav()}>Projekty</li>
-        <li className="text-white border-b border-white font-chakra-petch font-bold text-lg cursor-pointer hover:text-purple-500 transition-all " onClick={() => toggleMobileNav()}>Kontakt</li>
+    <div
+      className={`w-full bg-dark p-4 z-10 ${
+        openMobileNav ? "" : "-left-2 right-full"
+      } transition-all duration-100`}
+    >
+      <nav className="flex flex-col gap-2 p-4">
+        {sections.map((section) => (
+          <li
+            key={section.id}
+            className="text-white border-b border-white font-chakra-petch font-bold text-lg cursor-pointer hover:text-purple-500 transition-all"
+            onClick={() => toggleNav(section.id)}
+          >
+            {section.label}
+          </li>
+        ))}
       </nav>
-      {/* Social Media */}
-      <section className="w-full h-full"> <SocialniSite/></section>
+      <section className="w-full h-full">
+        <SocialniSite />
+      </section>
     </div>
   );
 };

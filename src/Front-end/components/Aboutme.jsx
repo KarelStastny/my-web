@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Aboutme = () => {
+  const refAboutMe = useRef(null);
   return (
-    <div>
+    <div ref={refAboutMe}>
       <section className="p-4">
         <div className="flex items-center justify-center mt-4">
           <h2 className=" font-courgate tracking-wide text-xl md:text-2xl lg:text-4xl ">

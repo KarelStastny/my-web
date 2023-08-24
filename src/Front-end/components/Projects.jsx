@@ -12,7 +12,6 @@ const Projects = () => {
     setSelected(selected === index ? null : index);
     setSelectedProject(one);
   };
-  console.log(selectedProject);
 
   return (
     <div className="max-w-6xl m-auto p-1 mt-14">
