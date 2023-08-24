@@ -41,7 +41,12 @@ const dataExperience = [
       heading: 'Git',
       text: 'Git je mým věrným společníkem v každodenní práci. Denně ho používám k udržování a verzování mého kódu. Zvládám práci s větvemi (branches), posíláním verzí (commity) celkem i slučováním změn (merge) pro efektivní spolupráci na projektech.',
     },
-    // Další položky datového pole...
+    {
+      id: 9,
+      heading: 'Ostatní',
+      text: 'Mám také zkušenosti s ovládáním příkazového řádku pomocí Git Bash a Git Kraken. V oblasti stylování mám základní schopnosti práce s grafickým programem Canva, kde dokáži vytvářet jednoduché a esteticky působivé designy.',
+    },
+  
   ];
   
   export default dataExperience;

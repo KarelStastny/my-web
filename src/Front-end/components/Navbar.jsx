@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import MobileNavbar from "./MobileNavbar";
 import SocialniSite from "./SocialniSite";
+import ScroolProgres from "./ScroolProgres";
 
 const Navbar = () => {
   const [close, setClose] = useState(true);
@@ -19,7 +20,7 @@ const Navbar = () => {
     <div className=" fixed right-0 left-0 bg-dark">
     <div className="max-w-6xl m-auto p-1  w-full  bg-dark ">
     
-      <header className="flex  justify-between w-full items-center   h-[70px] ">
+      <header className="flex  justify-between w-full items-center   h-[65px] ">
         {/* Logo */}
         <div className=" flex items-center justify-between w-full md:w-auto ">
           <div className="p-2 md:p-4 ">
@@ -51,7 +52,9 @@ const Navbar = () => {
           <SocialniSite/>
         </section>
         
+        
       </header>
+      
       {/* Menu Mobile */}
       <div className=" relative w-full   ">
         <div className={` absolute  ${openMobileNav ? " -left-full " : " left-0 right-0 "} transition-all duration-100`}>
@@ -59,6 +62,7 @@ const Navbar = () => {
         </div>
         </div>
     </div>
+    <ScroolProgres/>
     </div>
   );
 };

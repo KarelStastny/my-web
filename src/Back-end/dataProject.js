@@ -103,8 +103,8 @@ const projects = [
     },
     {
         id: 6,
-        heading: "Main Progress",
-        url: "https://karelstastny.github.io/react-best-electronics/",
+        heading: "Scrol up and Progress",
+        url: "https://karelstastny.github.io/Scroll-up-and-progress/",
         mainFoto: MainProgress,
         mainTechnology: JS,
         category: "css",
