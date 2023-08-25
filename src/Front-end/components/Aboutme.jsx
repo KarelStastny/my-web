@@ -30,7 +30,7 @@ const Aboutme = () => {
           energii a zájem neustále se učit nové technologie.
         </p>
         <p className="max-w-4xl m-auto  p-2 text-md lg:text-xl font-nunito-sans text-justify ">
-          Kromě vývoje mě baví turistika, běh a hledání možností, jak vydělat
+          Kromě vývoje mě baví turistika, běh a hledání možností, jak vydělávat
           online. Těším se na příležitosti spolupracovat na různorodých
           projektech, které mi pomohou růst.
         </p>

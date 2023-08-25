@@ -37,7 +37,7 @@ const Contact = () => {
               id="email"
               type="email"
               name="email"
-              placeholder="email"
+              placeholder="Email"
             />
             <ValidationError
               prefix="Email"
@@ -49,13 +49,13 @@ const Contact = () => {
           {/* Předmět */}
           <input
             className="text-dark w-full p-2 rounded-lg border-2 border-purple-500 outline-none"
-            id="subject"
-            name="subject"
+            id="message"
+            name="message"
             placeholder="Předmět"
           />
           <ValidationError
-            prefix="Subject"
-            field="subject"
+            prefix="Message"
+            field="message"
             errors={state.errors}
           />
           {/* Text Zprávy */}
