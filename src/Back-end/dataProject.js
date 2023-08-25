@@ -20,6 +20,7 @@ import PasswordGenerator from "../images/Project/Password-generator.JPG";
 import PcEshopJS from "../images/Project/PC-eshop-js.JPG";
 import ShopFilter from "../images/Project/Shop-Filter.JPG";
 import ActiveNavbarScroll from "../images/Project/Active-navbar-scroll.JPG";
+import Zoo from "../images/Project/Zoo.JPG";
 
 const projects = [
   {
@@ -139,19 +140,19 @@ const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     heading: "PC Eshop JS",
     url: "https://karelstastny.github.io/PC-Shop/",
     mainFoto: PcEshopJS,
     mainTechnology: JS,
     category: "js",
-    quality: "best",
+    quality: "normal",
     text: "Jeden z mých úspěšných projektů v JavaScriptu. Tato funkční eshopová aplikace umožňuje načítání produktů ze souboru, přidávání zboží do košíku a zobrazení celkové ceny objednávky. Pokročilá funkcionalita a interaktivní design dělají z tohoto projektu skvělý příklad, jak vytvořit  eshop v rámci webové aplikace.",
 
     secondTechnology: [{ tech: HTML }, { tech: CSS }, { tech: GITHUB }],
   },
   {
-    id: 9,
+    id: 10,
     heading: "Shop Filter",
     url: "https://karelstastny.github.io/PC-E-shop-filter/",
     mainFoto: ShopFilter,
@@ -163,7 +164,7 @@ const projects = [
     secondTechnology: [{ tech: HTML }, { tech: CSS }, { tech: GITHUB }],
   },
   {
-    id: 10,
+    id: 11,
     heading: "Active Navbar Scroll",
     url: "https://karelstastny.github.io/Active-navbar-scroll/",
     mainFoto: ActiveNavbarScroll,
@@ -173,6 +174,17 @@ const projects = [
     text: "Jednoduchý projekt v JavaScriptu, který vytváří plynulou navigaci na jednostránkovém webu. Po kliknutí na položku navigačního menu se stránka automaticky posune ke správné sekci obsahu. Tento projekt zajišťuje pohodlnou a intuitivní navigaci na dlouhých webových stránkách.",
 
     secondTechnology: [{ tech: HTML }, { tech: CSS }, { tech: GITHUB }],
+  },  {
+    id: 12,
+    heading: "Zoo Web (zatím nejde spustit)",
+    url: "https://karelstastny.github.io/React-Zoo-Web/",
+    mainFoto: Zoo,
+    mainTechnology: REACT,
+    category: "react",
+    quality: "best",
+    text: "Jedná se o jeden z mých větších projektů v Reactu, kde jsem se pokusil vytvořit webové stránky pro fiktivní zoologickou zahradu. Na těchto stránkách jsem se snažil zahrnout mnoho prvků, které jsou typické pro reálnou zoologickou zahradu. Zejména jsem se zaměřil na sekci s různými zvířaty, pro kterou jsem vytvořil vlastní databázi pomocí JavaScriptu. Dále jsem implementoval oblíbené položky, které ukládám pomocí Local Storage, což přispívá k uživatelskému pohodlí.",
+
+    secondTechnology: [{ tech: HTML }, { tech: CSS }, { tech: SCSS },{ tech: GITHUB }],
   },
 ];
 
