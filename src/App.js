@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="">
+      <div className="overflow-hidden">
         <header className="overflow-hidden">
           <Navbar scrollToSection={scrollToSection} sections={sections} />
           <div id="home">

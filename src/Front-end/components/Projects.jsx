@@ -22,35 +22,35 @@ const Projects = () => {
       </div>
 
       {/* Filter menu */}
-      <div className="flex gap-5 items-center justify-center ">
-        <div className="flex  justify-center  items-center mt-6 mb-6">
+      <div className="flex gap-2 px-8 w-full sm:gap-5 items-center justify-center flex-col sm:flex-row">
+        <div className="flex  justify-center w-full items-center mt-6 sm:mb-6">
           <button
             onClick={() => setfindTypeProject(null)}
-            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+            className=" border-2 rounded-md w-full border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
           >
             Všechny
           </button>
         </div>
-        <div className="flex justify-center items-center mt-6 mb-6">
+        <div className="flex justify-center w-full items-center sm:mt-6 sm:mb-6">
           <button
             onClick={() => setfindTypeProject("js")}
-            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+            className=" border-2 rounded-md w-full border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
           >
             JavaScript
           </button>
         </div>
-        <div className="flex  justify-center items-center mt-6 mb-6">
+        <div className="flex  justify-center w-full items-center sm:mt-6 sm:mb-6">
           <button
             onClick={() => setfindTypeProject("react")}
-            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+            className=" border-2 rounded-md w-full border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
           >
             React
           </button>
         </div>
-        <div className="flex  justify-center items-center mt-6 mb-6">
+        <div className="flex  justify-center w-full items-center sm:mt-6 mb-6">
           <button
             onClick={() => setfindTypeProject("css")}
-            className=" border-2 rounded-md  border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
+            className=" border-2 rounded-md w-full border-purple-600 hover:bg-purple-600 hover:text-dark font-bold transition-all duration-200 py-2 px-4 text-center"
           >
             CSS
           </button>
