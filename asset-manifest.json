@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-web/static/css/main.b6501ae8.css",
-    "main.js": "/my-web/static/js/main.9297465c.js",
+    "main.css": "/my-web/static/css/main.837ffbc3.css",
+    "main.js": "/my-web/static/js/main.0b68f8cc.js",
     "static/media/react.png": "/my-web/static/media/react.becbab0ab5d2271d2831.png",
     "static/media/Zoo.JPG": "/my-web/static/media/Zoo.94ad5db64fee7c872b9a.JPG",
     "static/media/firebase.png": "/my-web/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
@@ -21,11 +21,11 @@
     "static/media/Password-generator.JPG": "/my-web/static/media/Password-generator.4206d85ab8a21351e96f.JPG",
     "static/media/talwind.png": "/my-web/static/media/talwind.5ddb60003daadbd2e679.png",
     "index.html": "/my-web/index.html",
-    "main.b6501ae8.css.map": "/my-web/static/css/main.b6501ae8.css.map",
-    "main.9297465c.js.map": "/my-web/static/js/main.9297465c.js.map"
+    "main.837ffbc3.css.map": "/my-web/static/css/main.837ffbc3.css.map",
+    "main.0b68f8cc.js.map": "/my-web/static/js/main.0b68f8cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6501ae8.css",
-    "static/js/main.9297465c.js"
+    "static/css/main.837ffbc3.css",
+    "static/js/main.0b68f8cc.js"
   ]
 }
