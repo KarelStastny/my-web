@@ -6,7 +6,7 @@ const Contact = () => {
   const refContact = useRef(null);
   const [state, handleSubmit] = useForm("maygojwe");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <div className="flex items-center justify-center w-full h-[75px] bg-dark my-8"> <p className="font-nunito-sans">Děkuji za zaslání zprávy.</p> </div>;
   }
   return (
     <div className="bg-dark">

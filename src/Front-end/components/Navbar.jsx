@@ -14,13 +14,20 @@ const Navbar = ({ scrollToSection, sections }) => {
     setOpenMobileNav(!openMobileNav);
   };
 
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
   return (
     <div className="fixed right-0 left-0 bg-dark">
       <div className="max-w-6xl m-auto p-1 w-full bg-dark ">
         <header className="flex justify-between w-full items-center h-[65px] ">
           <div className=" flex items-center justify-between w-full md:w-auto ">
             <div className="p-2 md:p-4 ">
-              <h2 className=" cursor-pointer font-courgate tracking-wide text-xl md:text-2xl ">
+              <h2 onClick={() => scrollUp()} className=" cursor-pointer font-courgate tracking-wide text-xl md:text-2xl ">
                 Karel <span className="text-purple-500">Švancar</span>{" "}
               </h2>
             </div>

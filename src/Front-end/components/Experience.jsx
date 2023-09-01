@@ -30,7 +30,7 @@ const Experience = () => {
             >
               <h2
                 className={` ${
-                  selected === one.id ? " text-purple-500" : "text-white"
+                  selected === one.id ? " text-purple-500 " : "text-white"
                 } md:text-lg `}
               >
                 {one.heading}
@@ -44,11 +44,11 @@ const Experience = () => {
               </span>
             </div>
             <div
-              className={` ${
-                selected === one.id
-                  ? "max-h-500px transition-max-height duration-2000"
-                  : "max-h-0 overflow-hidden transition-max-height duration-700"
-              }`}
+                className={`${
+                  selected === one.id
+                    ? "max-h-500px transition-max-height duration-3000" 
+                    : "max-h-0 overflow-hidden transition-max-height duration-700"
+                }`}
             >
               <p className=" px-4 pb-2 text-justify">{one.text}</p>
             </div>

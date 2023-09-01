@@ -12,6 +12,7 @@ import "./index.css";
 
 function App() {
   const sections = [
+   
     { id: "home", label: "Home" },
     { id: "aboutMe", label: "O mě" },
     { id: "experience", label: "Zkušenosti" },
@@ -29,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <div className="overflow-hidden">
-        <header className="overflow-hidden">
+        <header  className="overflow-hidden">
           <Navbar scrollToSection={scrollToSection} sections={sections} />
           <div id="home">
             <HeroSection
