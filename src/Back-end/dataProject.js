@@ -21,6 +21,7 @@ import PcEshopJS from "../images/Project/PC-eshop-js.JPG";
 import ShopFilter from "../images/Project/Shop-Filter.JPG";
 import ActiveNavbarScroll from "../images/Project/Active-navbar-scroll.JPG";
 import Zoo from "../images/Project/Zoo.JPG";
+import Anglictina from "../images/Project/Anglictina.JPG";
 
 const projects = [
   {
@@ -185,6 +186,18 @@ const projects = [
     text: "Jedná se o jeden z mých větších projektů v Reactu, kde jsem se pokusil vytvořit webové stránky pro fiktivní zoologickou zahradu. Na těchto stránkách jsem se snažil zahrnout mnoho prvků, které jsou typické pro reálnou zoologickou zahradu. Zejména jsem se zaměřil na sekci s různými zvířaty, pro kterou jsem vytvořil vlastní databázi pomocí JavaScriptu. Dále jsem implementoval oblíbené položky, které ukládám pomocí Local Storage, což přispívá k uživatelskému pohodlí.",
 
     secondTechnology: [{ tech: HTML }, { tech: CSS }, { tech: SCSS },{ tech: GITHUB }],
+  },
+   {
+    id: 13,
+    heading: "Aplikace Angličtina",
+    url: "https://karelstastny.github.io/anglictina/home",
+    mainFoto: Anglictina,
+    mainTechnology: REACT,
+    category: "react",
+    quality: "best",
+    text: "Rozpracovaný !!!!!!!!!!!!!!!!!!!!!!!!!!",
+
+    secondTechnology: [{ tech: HTML }, { tech: TALWIND },{ tech: GITHUB },{ tech: JS }],
   },
 ];
 
