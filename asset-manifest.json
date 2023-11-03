@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-web/static/css/main.837ffbc3.css",
-    "main.js": "/my-web/static/js/main.8f89a00b.js",
+    "main.js": "/my-web/static/js/main.d2220acd.js",
     "static/media/react.png": "/my-web/static/media/react.becbab0ab5d2271d2831.png",
     "static/media/Zoo.JPG": "/my-web/static/media/Zoo.94ad5db64fee7c872b9a.JPG",
     "static/media/firebase.png": "/my-web/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
@@ -15,6 +15,7 @@
     "static/media/Lovely-days.JPG": "/my-web/static/media/Lovely-days.fc9dab6a1f9d91ad0e1b.JPG",
     "static/media/scss.png": "/my-web/static/media/scss.58e61bc991e55a95072b.png",
     "static/media/The-weather-app.JPG": "/my-web/static/media/The-weather-app.f1aea0f0f52d11a9a3c3.JPG",
+    "static/media/Anglictina.JPG": "/my-web/static/media/Anglictina.5a6a3018bab264396b1c.JPG",
     "static/media/developer.png": "/my-web/static/media/developer.83d125423f32b9ee877c.png",
     "static/media/Main-progress.JPG": "/my-web/static/media/Main-progress.7bc48bc537ad68993959.JPG",
     "static/media/js.png": "/my-web/static/media/js.166865dacb77d214f485.png",
@@ -22,10 +23,10 @@
     "static/media/talwind.png": "/my-web/static/media/talwind.5ddb60003daadbd2e679.png",
     "index.html": "/my-web/index.html",
     "main.837ffbc3.css.map": "/my-web/static/css/main.837ffbc3.css.map",
-    "main.8f89a00b.js.map": "/my-web/static/js/main.8f89a00b.js.map"
+    "main.d2220acd.js.map": "/my-web/static/js/main.d2220acd.js.map"
   },
   "entrypoints": [
     "static/css/main.837ffbc3.css",
-    "static/js/main.8f89a00b.js"
+    "static/js/main.d2220acd.js"
   ]
 }
