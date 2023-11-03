@@ -190,7 +190,7 @@ const projects = [
    {
     id: 13,
     heading: "Aplikace Angličtina",
-    url: "https://karelstastny.github.io/anglictina/home",
+    url: "https://karelstastny.github.io/anglictina/",
     mainFoto: Anglictina,
     mainTechnology: REACT,
     category: "react",
