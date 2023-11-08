@@ -182,7 +182,7 @@ const projects = [
     mainFoto: Zoo,
     mainTechnology: REACT,
     category: "react",
-    quality: "best",
+    quality: "normal",
     text: "Jedná se o jeden z mých větších projektů v Reactu, kde jsem se pokusil vytvořit webové stránky pro fiktivní zoologickou zahradu. Na těchto stránkách jsem se snažil zahrnout mnoho prvků, které jsou typické pro reálnou zoologickou zahradu. Zejména jsem se zaměřil na sekci s různými zvířaty, pro kterou jsem vytvořil vlastní databázi pomocí JavaScriptu. Dále jsem implementoval oblíbené položky, které ukládám pomocí Local Storage, což přispívá k uživatelskému pohodlí.",
 
     secondTechnology: [{ tech: HTML }, { tech: CSS }, { tech: SCSS },{ tech: GITHUB }],
@@ -195,7 +195,7 @@ const projects = [
     mainTechnology: REACT,
     category: "react",
     quality: "best",
-    text: "Rozpracovaný !!!!!!!!!!!!!!!!!!!!!!!!!!",
+    text: "Má aplikace kombinuje pokročilé bezpečnostní funkce s dynamickým generováním jazykových cvičení. Využívá robustní validaci hesel, přizpůsobitelné překlady CZ-EN/EN-CZ a algoritmus pro personalizaci slovní zásoby. Klíčovým prvkem je využití React Context API pro efektivní správu globálních stavů, zajišťující vysokou úroveň responzivity a uživatelského komfortu.",
 
     secondTechnology: [{ tech: HTML }, { tech: TALWIND },{ tech: GITHUB },{ tech: JS }],
   },
